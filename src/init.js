@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import { installOptions, installDirectives, installFilters, installComponents } from '@vusion/utils';
 import * as CloudUI from 'cloud-ui.vusion';
-import 'cloud-ui.vusion.css';
+// import 'cloud-ui.vusion.css';
+import 'cloud-ui.vusion/dist/index.css';
 import VueI18n from 'vue-i18n';
 import '@/assets/css/index.css';
 import * as Components from '@/components';

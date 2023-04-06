@@ -13,7 +13,6 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-
     'no-unused-vars': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'vue/no-parsing-error': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'vue/no-unused-vars': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
@@ -23,6 +22,7 @@ module.exports = {
     'no-undef': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-constant-condition': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-fallthrough': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-irregular-whitespace': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-irregular-whitespace': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'require-atomic-updates': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   }
 }

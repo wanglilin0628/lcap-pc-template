@@ -1,7 +1,7 @@
 const pkg = require('./package.json');
 const argv = require('minimist')(process.argv.slice(2));
 const isDevelopment = process.env.NODE_ENV === 'development';
-const publicPathPrefix = process.env.SITE_TYPE === 'gh-pages' ? `https://vusion-templates.github.io/${pkg.name}` : '/';
+const publicPathPrefix = '/';
 
 const port = argv.port || 8810;
 
